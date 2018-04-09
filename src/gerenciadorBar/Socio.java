@@ -1,14 +1,12 @@
 package gerenciadorBar;
 
-public class Socio {
+public class Socio extends Cliente{
 
 	private int idSocio;
 	private int index;
-
-	private Cliente cliente;
 	
-	public Socio(Cliente cli){
-		if(cli.isSocio());
+	public Socio(String nome, String cpf, int idade, char genero){
+		super(nome, cpf, idade, genero);
 			idSocio = index;
 			index++;
 	}
@@ -19,14 +17,6 @@ public class Socio {
 
 	public void setIdSocio(int idSocio) {
 		this.idSocio = idSocio;
-	}
-
-	public Cliente getCliente() {
-		return cliente;
-	}
-
-	public void setCliente(Cliente cliente) {
-		this.cliente = cliente;
 	}
 
 }
