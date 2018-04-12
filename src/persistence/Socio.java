@@ -1,4 +1,4 @@
-package gerenciadorBar;
+package persistence;
 
 public class Socio extends Cliente{
 
