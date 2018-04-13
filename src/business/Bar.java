@@ -65,7 +65,7 @@ public class Bar {
 	}
 
 	public String encerraDia() {
-		return null;
+		return listaCliente.toString();
 	}
 
 }

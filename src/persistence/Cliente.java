@@ -33,5 +33,10 @@ public class Cliente {
 	public char getGenero() {
 		return genero;
 	}
+	
+	@Override
+	public String toString() {
+		return "Cliente [nome=" + nome + ", cpf=" + cpf + ", idade=" + idade + ", genero=" + genero + "]";
+	}
 
 }
