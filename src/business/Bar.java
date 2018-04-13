@@ -1,6 +1,8 @@
-package persistence;
+package business;
 
 import java.util.ArrayList;
+
+import persistence.Cliente;
 
 public class Bar {
 
